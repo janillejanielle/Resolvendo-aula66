@@ -19,6 +19,7 @@ export default function Todos(){
             text: 'Reunião',
             isCompleted: false
         }
+        
     ])
 
     const addTodo = useCallback(

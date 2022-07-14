@@ -20,8 +20,8 @@ export default function TodoForm ({addTodo}){
         <form onSubmit={handleSubmit}>
 
             <input 
-                type="text" 
-                className="input"
+                type= "text" 
+                className= "input"
                 value={value}
                 onChange={
                     (e) => {

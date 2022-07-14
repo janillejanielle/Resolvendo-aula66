@@ -11,6 +11,7 @@ export default function FetchGithubUsers(){
             results && results.map((item, index) => <li key={index} >{item.login}</li>)
         }
         </ul>
+        
     </div>
 
 }

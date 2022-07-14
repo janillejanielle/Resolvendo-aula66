@@ -14,6 +14,6 @@ export default function Todo ({todo, index, completeTodo, removeTodo}){
 
         </div>
     )
-
+    
 
 }

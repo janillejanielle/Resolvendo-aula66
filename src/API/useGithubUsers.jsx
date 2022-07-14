@@ -23,4 +23,5 @@ export default function useGithubUsers () {
         results,
         loading,
     }
+    
 }

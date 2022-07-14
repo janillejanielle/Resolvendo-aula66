@@ -10,7 +10,7 @@ export default function TrafficLight ({initialValue}){
 
     useEffect(() => {
         const timer = setTimeout(() => {
-          setColorIndex((colorIndex + 1) % 3);
+          setColorIndex((colorIndex + 1) % 4);
         }, lightDurations[colorIndex]);
         return () => {
           clearTimeout(timer);
